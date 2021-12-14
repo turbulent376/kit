@@ -1,4 +1,4 @@
-module github.com/turbulent376/homeactivity/kit
+module github.com/turbulent376/kit
 
 go 1.16
 
