@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package grpc;
+option go_package = "kit/grpc";
+
+message AppErrorDetails {
+  string Code = 1;
+  bytes Fields = 2;
+}
